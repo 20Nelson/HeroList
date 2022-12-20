@@ -38,15 +38,13 @@ public class AdapterHero extends RecyclerView.Adapter<AdapterHero.HolderData> {
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(holder.itemView.getContext(),
-                        "Author : "+ QM.getAuthor(), Toast.LENGTH_SHORT).show();
             }
         });
     }
 
     @Override
     public int getItemCount() {
-        return ListModel.size();
+        return listModel.size();
     }
 
     public class HolderData extends RecyclerView.ViewHolder{
