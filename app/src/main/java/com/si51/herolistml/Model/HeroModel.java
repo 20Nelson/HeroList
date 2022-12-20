@@ -1,6 +1,6 @@
 package com.si51.herolistml.Model;
 
-public class ListModel {
+public class HeroModel {
     private String hero_name, hero_avatar, hero_role, hero_specially;
     private int hero_id;
 

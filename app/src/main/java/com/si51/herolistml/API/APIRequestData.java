@@ -1,7 +1,5 @@
 package com.si51.herolistml.API;
 
-import com.si51.herolistml.Model.ListModel;
-
 import java.util.List;
 
 import retrofit2.Call;

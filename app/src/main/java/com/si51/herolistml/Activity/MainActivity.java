@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 import com.si51.herolistml.API.APIRequestData;
 import com.si51.herolistml.API.RetroServer;
-import com.si51.herolistml.Model.ListModel;
 import com.si51.herolistml.R;
 
 import java.util.List;
